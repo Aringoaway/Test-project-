@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/* Container 
+====================== */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Header 
+====================== */
+
+.header {
+    background-color: #fff;
+}
+
+.header__inner {
+    padding: 26px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nav 
+====================== */
+.nav {
+    display: flex
+    font-size: 14px;
+}
+
+.nav__link {
+    margin-left: 40px;
+    color: #0A345F;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+/* Button
+====================== */
+.btn {
+    display: inline-block;   
+    vertical-align: top; 
+
+    font-family: 'Regular';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+
+    border: none; 
+    outline: none;
+
+    padding: 13px 40px;
+
+    border-radius: 1px;
+    margin: 0;
+}
+
+.langbtn {
+    color: #0A345F;
+    background-color: #fff;
+
+}
+
+.land-content {
+    display: inline-block;
+}
+
+.login {
+    color: #0A345F;
+    background-color: #fff;
+}
+
+.register {
+    width: 124px;
+    height: 40px;
+
+    background: #174D85;
+    border-radius: 1px;
+
+    color: #FFFFFF;
+}
+
+.dropbtn {
+    border: none; 
+    outline: none;
+
+    background-color: #fff;
+
+    font-family: 'Regular';
+    
+}
+
+
+/* Intro 
+====================== */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+
+    background: #0A345F url("img/Rectangle 70.png") center no-repeat;
+}
+
+.intro__title {
+    font-family: Libre Caslon Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 87px;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
