@@ -105,68 +105,6 @@ p {
 
 
 
-/* .dropdown {
-    display: inline-block;
-} */
-
-/* /* Button
-====================== */
-/* .btn {
-    display: inline-block;   
-    vertical-align: top; 
-
-    font-family: 'Raleway';
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    text-transform: uppercase;
-
-    border: 0; 
-    cursor: pointer;
-
-    padding: 13px 40px;
-
-    border-radius: 1px;
-    
-}  */
-
-/* .langbtn {
-    color: #0A345F;
-    background-color: #fff;
-
-}
-
-.land-content {
-    display: inline-block;
-}
-
-.login {
-    color: #0A345F;
-    background-color: #fff;
-}
-
-.register {
-    width: 124px;
-    height: 40px;
-
-
-    background: #174D85;
-    border-radius: 1px;
-
-    color: #FFFFFF;
-} */
-
-/* .dropbtn {
-    border: none; 
-    outline: none;
-
-    background-color: #fff;
-
-    font-family: 'Raleway';
-    
-} */
-
-
 /* Intro 
 ====================== */
 
@@ -180,7 +118,7 @@ p {
 }
 
 .intro__title {
-    font-family: Libre Caslon Display;
+    font-family: 'Libre Caslon Display';
     font-style: normal;
     font-weight: normal;
     font-size: 70px;
@@ -197,7 +135,6 @@ p {
 ====================== */
 .mainabotfirm {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     height: 722px;
     width: 100%;
@@ -212,16 +149,18 @@ p {
 }
 
 .aboutfirm__title {
+    display: flex;
     font-family: 'Libre Caslon Display';
     font-style: normal;
     font-weight: normal;
     font-size: 55px;
     line-height: 110%;
-/* or 61px */
 
-text-align: center;
+    justify-content: center;
 
-color: #FFFFFF;
+    text-align: center;
+
+    color: #FFFFFF;
 
 }
 
@@ -244,4 +183,73 @@ color: #FFFFFF;
 
     color: #fff ;
     opacity: 80%;
+}
+
+/* Team
+====================== */
+
+.tepa {
+    display: flex;
+    justify-content: center;
+    height: 722px;
+    width: 100%;
+
+
+    background:#fff;
+}
+
+.team__title {
+    display: flex;
+    margin: 110px 0;
+}
+
+.team__team {
+    display: flex;
+    font-family: 'Libre Caslon Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 110%;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding-left: 414px;
+
+    color: #0A345F;
+
+}
+
+.team__item {
+    width: 25%;
+
+    padding: 0 15px;
+
+    text-align: left;
+}
+
+.img__icon {
+    margin-bottom: 20px;
+}
+
+.team__name {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 22px;
+
+    margin-bottom: 5px;
+
+    color: #0A345F;
+}
+
+.team__text {
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+
+    color: #0A345F;
+    opacity: 60%;
+
 }
