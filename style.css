@@ -46,7 +46,7 @@ p {
 ====================== */
 .nav {
     display: flex
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .nav__link {
@@ -59,32 +59,78 @@ p {
     text-decoration: underline;
 }
 
-.dropdown {
-    display: inline-block;
+
+/* Buttons 
+====================== */
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center/* justify-content: center; */
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    
+    
+    
+
+    text-decoration: none;
 }
 
-/* Button
-====================== */
 .btn {
+    display: inline-block;
+    vertical-align: top;
+    
+    font-weight: 600;
+
+    padding: 13px 40px; 
+
+}
+
+.buttons__link {
+    margin-left: 40px;
+    color: #0A345F;
+    text-decoration: none;
+    
+}
+
+.buttons--blue {
+    background-color: #174D85;
+    color: #fff;
+}
+
+.buttons--blue:hover {
+    background-color: #144274;;
+}
+
+
+
+/* .dropdown {
+    display: inline-block;
+} */
+
+/* /* Button
+====================== */
+/* .btn {
     display: inline-block;   
     vertical-align: top; 
 
-    font-family: 'Regular';
+    font-family: 'Raleway';
     font-size: 14px;
     line-height: 17px;
     text-align: center;
     text-transform: uppercase;
 
-    border: none; 
-    outline: none;
+    border: 0; 
+    cursor: pointer;
 
     padding: 13px 40px;
 
     border-radius: 1px;
-    margin: 0;
-}
+    
+}  */
 
-.langbtn {
+/* .langbtn {
     color: #0A345F;
     background-color: #fff;
 
@@ -103,21 +149,22 @@ p {
     width: 124px;
     height: 40px;
 
+
     background: #174D85;
     border-radius: 1px;
 
     color: #FFFFFF;
-}
+} */
 
-.dropbtn {
+/* .dropbtn {
     border: none; 
     outline: none;
 
     background-color: #fff;
 
-    font-family: 'Regular';
+    font-family: 'Raleway';
     
-}
+} */
 
 
 /* Intro 
@@ -144,4 +191,57 @@ p {
 
     color: #FFFFFF;
 
+}
+
+/* About firm
+====================== */
+.mainabotfirm {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    height: 722px;
+    width: 100%;
+
+
+    background: #03294F;
+}
+
+.aboutfirm {
+    display: flex;
+    margin: 110px 0;
+}
+
+.aboutfirm__title {
+    font-family: 'Libre Caslon Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 110%;
+/* or 61px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.aboutfirm__items {
+    display: flex;
+}
+
+.aboutfirm__item {
+    width: 50%;
+
+    text-align: justify;
+
+    margin-left: 100px;
+}
+
+.aboutfirm__text {
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #fff ;
+    opacity: 80%;
 }
